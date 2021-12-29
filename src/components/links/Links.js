@@ -12,18 +12,18 @@ const Links = () => {
     const [cpyMsgVisibility, setCpyMsgVisibility] = useState(false)
 
     return (
-        <div className='container'>
-            <p className={`copyMessage ${cpyMsgVisibility ? "visible" : "hidden"}`}>Mail copied!</p>
-            <p className="clickable" onClick={copyGmailToClopboard}>
-                <img className='icon' src={gmailIcon} alt="Gmail logo"></img>
+        <div className='links-container'>
+            <p className={`links-copyMessage ${cpyMsgVisibility ? "links-visible" : "links-hidden"}`}>Mail copied!</p>
+            <p className="links-clickable" onClick={copyGmailToClopboard}>
+                <img className='links-icon' src={gmailIcon} alt="Gmail logo"></img>
             </p>
             <a href={githubLink} rel="noreferrer" target="_blank">
-                <img className='icon' src={githubIcon} alt="Github logo"></img>
+                <img className='links-icon' src={githubIcon} alt="Github logo"></img>
             </a>
             <a href={linkedInLink} rel="noreferrer" target="_blank">
-                <img className='icon' src={linkedinIcon} alt="LinkedIn logo"></img>
+                <img className='links-icon' src={linkedinIcon} alt="LinkedIn logo"></img>
             </a>
-            <div className="vertical-line"></div>
+            <div className="links-vertical-line"></div>
         </div>
     )
 
