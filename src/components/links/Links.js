@@ -11,18 +11,23 @@ const Links = () => {
 
     return (
         <div className='container'>
-            <a href={gmailLink} rel="noreferrer" target="_blank">
+            <p className='copyMessage'>Mail copied!</p>
+            <p className="clickable" onClick={copyGmailToClopboard}>
                 <img className='icon' src={gmailIcon} alt="Gmail logo"></img>
-            </a>
+            </p>
             <a href={githubLink} rel="noreferrer" target="_blank">
                 <img className='icon' src={githubIcon} alt="Github logo"></img>
             </a>
             <a href={linkedInLink} rel="noreferrer" target="_blank">
                 <img className='icon' src={linkedinIcon} alt="LinkedIn logo"></img>
             </a>
-            <div class="vertical-line"></div>
+            <div className="vertical-line"></div>
         </div>
     )
+
+    function copyGmailToClopboard() {
+        navigator.clipboard.writeText(gmailLink);
+    }
 }
 
 export default Links

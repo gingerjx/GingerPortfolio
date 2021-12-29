@@ -8,6 +8,24 @@
     align-items: center;
 }
 
+.copyMessage {
+    position: relative;
+    left: 5em;
+    background-color: #2A2438;
+    color: #DBD8E3;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+   border-radius: 0.5em;
+}
+
+p {
+    margin: 0;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
 .icon {
     width: 2em;
     margin-bottom: 0.5em;
