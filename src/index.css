@@ -1,7 +1,17 @@
+@font-face {
+  font-family: "Sen";
+  src: url(fonts/Sen-Regular.ttf);
+}
+
 body {
   background-color: #352F44;
+  font-family: "Sen";
 }
 
 p {
   margin: 0;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }

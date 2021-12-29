@@ -29,10 +29,6 @@
     transition: all 250ms linear 1s;
 }
 
-.links-clickable:hover {
-    cursor: pointer;
-}
-
 .links-icon {
     width: 2em;
     margin-bottom: 0.5em;
@@ -40,5 +36,5 @@
 
 .links-vertical-line {
     border-left: 1px solid #5C5470;
-    height: 7em;
+    height: 5em;
 }

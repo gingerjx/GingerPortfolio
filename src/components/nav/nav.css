@@ -1,0 +1,30 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    right: 2em;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+}
+
+.nav-vertical-line {
+    position: relative;
+    left: 90%;    
+    width: 2px;
+    height: 7em;
+    border-left: 2px solid #DBD8E3;
+}
+
+.nav-element {
+    padding: 0.75em 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+.nav-element-active {
+    color: #C37339;
+}
+
+.nav-element-disabled {
+    color: #DBD8E3;
+}

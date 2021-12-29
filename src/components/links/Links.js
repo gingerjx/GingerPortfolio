@@ -14,7 +14,7 @@ const Links = () => {
     return (
         <div className='links-container'>
             <p className={`links-copyMessage ${cpyMsgVisibility ? "links-visible" : "links-hidden"}`}>Mail copied!</p>
-            <p className="links-clickable" onClick={copyGmailToClopboard}>
+            <p className="clickable" onClick={copyGmailToClopboard}>
                 <img className='links-icon' src={gmailIcon} alt="Gmail logo"></img>
             </p>
             <a href={githubLink} rel="noreferrer" target="_blank">
