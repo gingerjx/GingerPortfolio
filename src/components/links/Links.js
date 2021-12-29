@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './links.css'
 import gmailIcon from './assets/gmail.svg'
 import githubIcon from './assets/github.svg'
@@ -8,10 +8,12 @@ const Links = () => {
     const gmailLink = 'piotrkalota99@gmail.com'
     const githubLink = 'https://github.com/gingerjx'
     const linkedInLink = 'https://www.linkedin.com/in/piotrkalota/'
+    const timeout = 1000
+    const [cpyMsgVisibility, setCpyMsgVisibility] = useState(false)
 
     return (
         <div className='container'>
-            <p className='copyMessage'>Mail copied!</p>
+            <p className={`copyMessage ${cpyMsgVisibility ? "visible" : "hidden"}`}>Mail copied!</p>
             <p className="clickable" onClick={copyGmailToClopboard}>
                 <img className='icon' src={gmailIcon} alt="Gmail logo"></img>
             </p>
@@ -26,7 +28,11 @@ const Links = () => {
     )
 
     function copyGmailToClopboard() {
-        navigator.clipboard.writeText(gmailLink);
+        setCpyMsgVisibility(true)
+        setTimeout(() => {
+            setCpyMsgVisibility(false)
+        }, timeout)
+        navigator.clipboard.writeText(gmailLink)
     }
 }
 
