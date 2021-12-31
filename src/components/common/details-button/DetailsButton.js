@@ -6,10 +6,7 @@ import ArrowBlack from './assets/black-arrow.svg'
 const DetailsButton = ({ isOrange }) => {
     const arrow = isOrange ? ArrowOrange : ArrowBlack
     const color = isOrange ? '#C26D30' : '#000000'
-    console.log(isOrange)
-    console.log(arrow)
-    console.log(color)
-
+    
     return (
         <button 
             className='clickable details-button'

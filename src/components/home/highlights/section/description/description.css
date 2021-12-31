@@ -1,0 +1,31 @@
+.section-desc-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 15em;
+    height: 20em;
+    padding: 1em;
+    background: linear-gradient(180deg, rgba(42,36,56,1) 0%, rgba(42,36,56,0) 100%);
+}
+
+.section-desc-text {
+    text-align: justify;
+}
+
+.section-desc-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-bottom: 1em;
+}
+
+.section-desc-tags-wrapper {
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.section-desc-tags {
+    font-weight: bold;
+    font-size: 0.75em;
+}
