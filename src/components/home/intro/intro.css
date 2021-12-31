@@ -1,0 +1,38 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9em;
+}
+
+.intro-hi {
+    font-size: 1.5em;
+}
+
+.intro-name {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.intro-tags {
+    color: #C26D30;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.intro-description {
+    font-size: 1.5em;
+    margin-top: 1em;
+    max-width: 35em;
+}
+
+.intro-scroll {
+    align-self: center;
+    width: 5em;
+    margin-top: 3em;
+}
+
+.intro-scroll-text {
+    align-self: center;
+    color: #C26D30;
+    font-weight: bold;
+}

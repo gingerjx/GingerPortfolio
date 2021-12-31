@@ -11,7 +11,7 @@
     position: relative;
     left: 90%;    
     width: 2px;
-    height: 7em;
+    height: 8em;
     border-left: 2px solid #DBD8E3;
 }
 
@@ -22,9 +22,9 @@
 }
 
 .nav-element-active {
-    color: #C37339;
+    color: #C26D30;
 }
 
 .nav-element-disabled {
-    color: #DBD8E3;
+    color: #C5BDD8;
 }

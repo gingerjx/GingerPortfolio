@@ -1,10 +1,11 @@
 import React from 'react'
 import './home.css'
+import Intro from './intro/Intro'
 
 const Home = () => {
     return (
         <div className='home-container'>
-            Home
+            <Intro></Intro>
         </div>
     )
 }
