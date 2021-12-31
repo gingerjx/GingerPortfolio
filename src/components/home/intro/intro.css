@@ -5,22 +5,23 @@
 }
 
 .intro-hi {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .intro-name {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
 }
 
 .intro-tags {
     color: #C26D30;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
+    margin: 0.5em 0;
 }
 
 .intro-description {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-top: 1em;
     max-width: 35em;
 }
