@@ -3,7 +3,7 @@ import './description.css'
 import DetailsButton from '../../../../common/details-button/DetailsButton'
 
 const Description = ({ data }) => {
-  return (
+    return (
         <div className='section-desc-container'>
             <p className='section-desc-text' dangerouslySetInnerHTML={{ __html: data.description }}></p>
             <div className='section-desc-button-wrapper'>

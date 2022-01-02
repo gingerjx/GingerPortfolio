@@ -4,25 +4,26 @@ import Section from './section/Section'
 import WebDevIcon from './assets/web_developement.svg'
 import MLIcon from './assets/machine_learning.svg'
 import OSIcon from './assets/operating_systems.svg'
+import Texts from '../../../utils/Texts'
 
 const Highlights = () => {
     const WebDev = {
         icon : WebDevIcon,
-        title : "WEB DEVELOPEMENT",
-        description : "<b>Test</b> shittt something even longer but eh what can we say mamam safsa s gs fasfaf asf a sa as fa asf",
-        tags : "#WebDev #Scraping #Spring #Angular #Java"
+        title : Texts.home.highlights.webdev.title,
+        description : Texts.home.highlights.webdev.content,
+        tags : Texts.home.highlights.webdev.tags
     }
     const ML = {
         icon : MLIcon,
-        title : "MACHINE LEARNING",
-        description : "<b>Test</b> shittt",
-        tags : "#ML #Keras #Python #Numpy"
+        title : Texts.home.highlights.ml.title,
+        description : Texts.home.highlights.ml.content,
+        tags : Texts.home.highlights.ml.tags
     }
     const OS = {
         icon : OSIcon,
-        title : "OPERATING SYSTEMS",
-        description : "<b>Test</b> shittt",
-        tags : "#OS #Memory #Management #C #Multithreading"
+        title : Texts.home.highlights.os.title,
+        description : Texts.home.highlights.os.content,
+        tags : Texts.home.highlights.os.tags
     }
     
     return (
