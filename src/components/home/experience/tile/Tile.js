@@ -7,7 +7,7 @@ const Tile = ({ data }) => {
     const background = data.active ? styleActive : styleDisabled;
 
     return (
-        <div onClick={data.clickEvent} style={background} className=' clickable home-experience-tile-container'>
+        <div onClick={data.clickEvent} style={background} className='clickable home-experience-tile-container'>
             <p className='home-experience-tile-position'>{data.position}</p>
             <p className='home-experience-tile-location'>{data.location}</p> 
             <div className='home-experience-tile-date-wrapper'>

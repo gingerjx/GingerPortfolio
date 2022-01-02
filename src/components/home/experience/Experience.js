@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './experience.css'
 import Tile from './tile/Tile'
 import Texts from '../../../utils/Texts'
+import DetailsTile from './detailsTile/DetailsTile'
 
 const Experience = () => {
     const [bachelorActive, setBachelorActive] = useState(true)
@@ -48,16 +49,14 @@ const Experience = () => {
         ...Texts.home.experience.masters
     }
     const tiles = [bachelor, samsung, iLab, sollers, pwc, master]
+    const [activeTile, setActiveTile] = useState(bachelor)
 
     return (
         <div className='home-experience-container'>
             <Tile data={bachelor}></Tile>            
             <Tile data={samsung}></Tile>  
             <Tile data={iLab}></Tile>
-            <div style={{ 
-                backgroundColor : 'red', 
-                gridRow : '1 / span 2',
-                gridColumn : '4' }}>asfasf</div>  
+            <DetailsTile tile={activeTile}></DetailsTile>
             <Tile data={sollers}></Tile>  
             <Tile data={pwc}></Tile>  
             <Tile data={master}></Tile> 
@@ -69,6 +68,7 @@ const Experience = () => {
             t.setActive(false)
         }
         tile.setActive(true)
+        setActiveTile(tile)
     }
 }
 
