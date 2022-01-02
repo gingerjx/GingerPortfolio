@@ -1,0 +1,5 @@
+.home-experience-tile-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 46, 46);
+}

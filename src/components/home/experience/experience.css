@@ -1,0 +1,8 @@
+.home-experience-container {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    margin-top: 9em;
+}
