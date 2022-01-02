@@ -13,7 +13,9 @@
     padding: 0.5em;
 }
 
-.home-more-tile-title > p {
+.home-more-tile-title > a {
+    color: #C5BDD8;
+    text-decoration: none;
     margin-left: 0.75em;
     font-size: 1em;
     line-height: 2em;

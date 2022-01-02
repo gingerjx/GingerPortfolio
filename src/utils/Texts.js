@@ -66,27 +66,33 @@ const Texts = {
             generalTwo : 'If you aren\'t bored yet, I have some small projects on the right for you. In case you are interested in cooperation, don\'t hestitate to contact me and if needed, catch resume below!',
             neural : {
                 title : 'HelloNeuralNetwork',
-                description : 'Implementation of Deep Neural Network able to recognize digits from MNIST database.'
+                description : 'Implementation of Deep Neural Network able to recognize digits from MNIST database.',
+                url : 'https://github.com/gingerjx/HelloNeuralNetwork'
             }, 
             beChef : {
                 title : 'BeChef',
-                description : 'Portal based on php backend, for sharing recipies among users.'
+                description : 'Portal based on php backend, for sharing recipies among users.',
+                url : 'https://github.com/gingerjx/BeChef'
             },
             littleChat : {
                 title : 'LittleChat',
-                description : 'Simple comunicator for sending messages and files based on sockets connections.'
+                description : 'Simple comunicator for sending messages and files based on sockets connections.',
+                url : 'https://github.com/gingerjx/LittleChat'
             },
             mazeSolving : {
                 title : 'MazeSolving',
-                description : 'Project about finding optimal escape path of maze from image.'
+                description : 'Project about finding optimal escape path of maze from image.',
+                url : 'https://github.com/gingerjx/MazeSolving'
             }, 
             runStudentRun : {
                 title : 'RunStudentRun',
-                description : 'Unity game for android, where you have to survive in the university jungle.'
+                description : 'Unity game for android, where you have to survive in the university jungle.',
+                url : '#' //TODO
             },
             alertMe : {
                 title : 'AlertMe',
-                description : 'Android application for adding and searching alerts in your surrounding.'
+                description : 'Android application for adding and searching alerts in your surrounding.',
+                url : 'https://github.com/221003/AlertMeApp'
             }
         }
     }
