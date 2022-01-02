@@ -5,7 +5,7 @@ import ArrowBlack from './assets/black-arrow.svg'
 
 const DetailsButton = ({ isOrange }) => {
     const arrow = isOrange ? ArrowOrange : ArrowBlack
-    const color = isOrange ? '#C26D30' : '#000000'
+    const color = isOrange ? '#C26D30' : '#2A2438'
     
     return (
         <button 
