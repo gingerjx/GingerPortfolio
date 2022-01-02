@@ -21,10 +21,11 @@
     margin-bottom: 2em;
 }
 
-.home-more-gen-container > button {
+.home-more-gen-container > a {
     background: none;
     border: none;
     outline: none;
+    text-decoration: none;
     box-sizing: border-box;
     width: fit-content;
     padding: 1em 2em; 

@@ -8,6 +8,7 @@ import MazeSolving from './assets/maze.svg'
 import RunIcon from './assets/running.svg'
 import AlertMeIcon from './assets/notification.svg'
 import Tile from './tile/Tile'
+import CV from './res/Piotr_Kalota_CV.pdf'
 
 const More = () => {
     const neural = {
@@ -34,12 +35,13 @@ const More = () => {
         icon : AlertMeIcon,
         ...Texts.home.more.alertMe
     }
+
     return (
         <div className='home-more-container'>
             <div className='home-more-gen-container'>
                 <p>{Texts.home.more.generalOne}</p>
                 <p>{Texts.home.more.generalTwo}</p>
-                <button>Resume</button>
+                <a href={ CV }>Resume</a>
             </div>
             <div className='home-more-projects-container'>
                 <Tile data={neural}/>
