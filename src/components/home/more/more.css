@@ -1,0 +1,34 @@
+.home-more-container {
+    display: flex;
+    margin-top: 9em;
+    margin-bottom: 5em;
+}
+
+.home-more-gen-container {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.home-more-projects-container {
+    box-sizing: border-box;
+    margin-left: 4em;
+    width: 60%;
+}
+
+.home-more-gen-container > p {
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+.home-more-gen-container > button {
+    background: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 1em 2em; 
+    background-color: #C26D30;
+    font-weight: bold;
+    color: #2A2438;
+}

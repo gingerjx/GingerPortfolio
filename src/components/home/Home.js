@@ -3,13 +3,15 @@ import Experience from './experience/Experience'
 import Highlights from './highlights/Highlights'
 import './home.css'
 import Intro from './intro/Intro'
+import More from './more/More'
 
 const Home = () => {
     return (
         <div className='home-container'>
-            <Intro></Intro>
-            <Highlights></Highlights>
-            <Experience></Experience>
+            <Intro/>
+            <Highlights/>
+            <Experience/>
+            <More/>
         </div>
     )
 }

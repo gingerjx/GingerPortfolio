@@ -60,6 +60,34 @@ const Texts = {
                 description : "To be written.",
                 dates : "03.2022 - Present"
             },
+        },
+        more : {
+            generalOne : 'My main focus is Web Developement with Java based backend. However, in my opinion, developer should be aware of many branches in IT.That\'s why I highlighted to you Machine Learning and Operating System solutions.',
+            generalTwo : 'If you aren\'t bored yet, I have some small projects on the right for you. In case you are interested in cooperation, don\'t hestitate to contact me and if needed, catch resume below!',
+            neural : {
+                title : 'HelloNeuralNetwork',
+                description : 'Implementation of Deep Neural Network able to recognize digits from MNIST database.'
+            }, 
+            beChef : {
+                title : 'BeChef',
+                description : 'Portal based on php backend, for sharing recipies among users.'
+            },
+            littleChat : {
+                title : 'LittleChat',
+                description : 'Simple comunicator for sending messages and files based on sockets connections.'
+            },
+            mazeSolving : {
+                title : 'MazeSolving',
+                description : 'Project about finding optimal escape path of maze from image.'
+            }, 
+            runStudentRun : {
+                title : 'RunStudentRun',
+                description : 'Unity game for android, where you have to survive in the university jungle.'
+            },
+            alertMe : {
+                title : 'AlertMe',
+                description : 'Android application for adding and searching alerts in your surrounding.'
+            }
         }
     }
 
