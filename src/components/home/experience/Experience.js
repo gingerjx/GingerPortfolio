@@ -4,7 +4,7 @@ import Tile from './tile/Tile'
 import Texts from '../../../utils/Texts'
 import DetailsTile from './detailsTile/DetailsTile'
 
-const Experience = () => {
+const Experience = ( { cid }) => {
     const [bachelorActive, setBachelorActive] = useState(true)
     const [samsungActive, setSamsungActive] = useState(false)
     const [iLabActive, setILabActive] = useState(false)
@@ -52,7 +52,7 @@ const Experience = () => {
     const [activeTile, setActiveTile] = useState(bachelor)
 
     return (
-        <div className='home-experience-container'>
+        <div id={cid} className='home-experience-container'>
             <Tile data={bachelor}></Tile>            
             <Tile data={samsung}></Tile>  
             <Tile data={iLab}></Tile>

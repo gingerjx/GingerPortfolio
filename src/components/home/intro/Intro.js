@@ -3,11 +3,11 @@ import './intro.css'
 import ScrollIcon from './assets/scroll-icon.svg'
 import Texts from '../../../utils/Texts'
 
-const Intro = () => {
+const Intro = ( { cid }) => {
     const scrollText = 'Scroll down'
 
     return (
-        <div className='intro-container'>
+        <div id={cid} className='intro-container'>
             <p className='intro-hi'>{Texts.home.intro.hi}</p>
             <p className='intro-name'>{Texts.home.intro.name}</p>
             <p className='intro-tags'>{Texts.home.intro.tags}</p>

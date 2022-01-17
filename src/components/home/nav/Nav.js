@@ -1,28 +1,28 @@
 import React, {useState} from 'react'
+import { useEffect } from 'react/cjs/react.development'
 import './nav.css'
 
-const Nav = ( { onClick }) => {
+const Nav = ( { introId, highlightsId, experienceId, moreId }) => {
     const [intro, setIntro] = useState({
         title: 'Intro',
         active: true,
-        navTo: ''
+        id: introId
     })
     const [highlights, setHighlights] = useState({
         title: 'Highlights',
         active: false,
-        navTo: ''
+        id: highlightsId
     })
     const [experience, setExperience] = useState({
         title: 'Experience',
         active: false,
-        navTo: ''
+        id: 'experience'
     })
     const [more, setMore] = useState({
         title: 'More',
         active: false,
-        navTo: ''
+        id: 'more'
     })
-    // const navLinksSetters = [intro, highlights, experience, more];
 
     const standardStyle = 'clickable nav-element';
 
@@ -42,8 +42,9 @@ const Nav = ( { onClick }) => {
         setExperience({...experience, active : false});
         setMore({...more, active : false});
         setter({...element, active : true});
+        
+        document.getElementById(element.id).scrollIntoView()
     }
 }
-
 
 export default Nav

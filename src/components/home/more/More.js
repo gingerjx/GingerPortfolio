@@ -10,7 +10,7 @@ import AlertMeIcon from './assets/notification.svg'
 import Tile from './tile/Tile'
 import CV from './res/Piotr_Kalota_CV.pdf'
 
-const More = () => {
+const More = ( { cid } ) => {
     const neural = {
         icon : NeuralIcon,
         ...Texts.home.more.neural
@@ -37,7 +37,7 @@ const More = () => {
     }
 
     return (
-        <div className='home-more-container'>
+        <div id={cid} className='home-more-container'>
             <div className='home-more-gen-container'>
                 <p>{Texts.home.more.generalOne}</p>
                 <p>{Texts.home.more.generalTwo}</p>

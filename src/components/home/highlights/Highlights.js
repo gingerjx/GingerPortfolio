@@ -6,7 +6,7 @@ import MLIcon from './assets/machine_learning.svg'
 import OSIcon from './assets/operating_systems.svg'
 import Texts from '../../../utils/Texts'
 
-const Highlights = () => {
+const Highlights = ( { cid } ) => {
     const WebDev = {
         icon : WebDevIcon,
         title : Texts.home.highlights.webdev.title,
@@ -27,7 +27,7 @@ const Highlights = () => {
     }
     
     return (
-        <div className='highlights-container'>
+        <div id={cid} className='highlights-container'>
             <Section data={WebDev}/>
             <Section addMargin={true} data={ML}/>
             <Section data={OS}/>
