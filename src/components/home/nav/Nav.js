@@ -16,12 +16,12 @@ const Nav = ( { introId, highlightsId, experienceId, moreId }) => {
     const [experience, setExperience] = useState({
         title: 'Experience',
         active: false,
-        id: 'experience'
+        id: experienceId
     })
     const [more, setMore] = useState({
         title: 'More',
         active: false,
-        id: 'more'
+        id: moreId
     })
 
     const standardStyle = 'clickable nav-element';
