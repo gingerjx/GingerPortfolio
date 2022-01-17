@@ -1,7 +1,7 @@
 .home-more-container {
     display: flex;
-    margin-top: 9em;
-    margin-bottom: 5em;
+    height: 100vh;
+    padding-top: 9em;
 }
 
 .home-more-gen-container {

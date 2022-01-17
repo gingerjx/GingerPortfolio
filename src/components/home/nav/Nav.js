@@ -43,7 +43,7 @@ const Nav = ( { introId, highlightsId, experienceId, moreId }) => {
         setMore({...more, active : false});
         setter({...element, active : true});
         
-        document.getElementById(element.id).scrollIntoView()
+        document.getElementById(element.id).scrollIntoView({behavior: "smooth"})
     }
 }
 

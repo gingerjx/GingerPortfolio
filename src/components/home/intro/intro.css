@@ -1,7 +1,8 @@
 .intro-container {
     display: flex;
     flex-direction: column;
-    margin-top: 9em;
+    height: 100vh;
+    padding-top: 9em;
 }
 
 .intro-hi {
