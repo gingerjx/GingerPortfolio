@@ -2,10 +2,11 @@ import React from 'react'
 import Description from './description/Description'
 import './section.css'
 
-const Section = ({ addMargin, data}) => {
+const Section = ({ data }) => {
     const descriptionData = {
         description : data.description,
-        tags : data.tags
+        tags : data.tags,
+        path : data.path
     }
     
     return (

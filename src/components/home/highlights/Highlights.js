@@ -11,19 +11,22 @@ const Highlights = ( { cid } ) => {
         icon : WebDevIcon,
         title : Texts.home.highlights.webdev.title,
         description : Texts.home.highlights.webdev.content,
-        tags : Texts.home.highlights.webdev.tags
+        tags : Texts.home.highlights.webdev.tags,
+        path : 'cheaclo'
     }
     const ML = {
         icon : MLIcon,
         title : Texts.home.highlights.ml.title,
         description : Texts.home.highlights.ml.content,
-        tags : Texts.home.highlights.ml.tags
+        tags : Texts.home.highlights.ml.tags,
+        path : 'machine-learning'
     }
     const OS = {
         icon : OSIcon,
         title : Texts.home.highlights.os.title,
         description : Texts.home.highlights.os.content,
-        tags : Texts.home.highlights.os.tags
+        tags : Texts.home.highlights.os.tags,
+        path : 'operating-systems'
     }
     
     return (

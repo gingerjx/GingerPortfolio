@@ -7,7 +7,7 @@ const Description = ({ data }) => {
         <div className='section-desc-container'>
             <p className='section-desc-text' dangerouslySetInnerHTML={{ __html: data.description }}></p>
             <div className='section-desc-button-wrapper'>
-                <DetailsButton isOrange={true}/>
+                <DetailsButton path={data.path} isOrange={true}/>
             </div>
             <div className='section-desc-tags-wrapper'>
                 <p className='section-desc-tags'>{data.tags}</p>

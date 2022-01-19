@@ -1,4 +1,4 @@
-.details-button {
+.details-link {
     background: none;
     outline: none;
     border: none;
@@ -6,10 +6,11 @@
     font-size: 1em;
     font-weight: bold;
     color: #C26D30;
+    text-decoration: none;;
     padding: 0;
 }
 
-.details-button > img {
+.details-link > img {
     width: 1em;
     margin-left: 0.3em;
 }
