@@ -3,7 +3,7 @@ import './intro.css'
 import ScrollIcon from './assets/scroll-icon.svg'
 import Texts from '../../../utils/Texts'
 
-const Intro = ( { cid }) => {
+const Intro = ( { scrollTo, cid }) => {
     const scrollText = 'Scroll down'
 
     return (
@@ -12,10 +12,14 @@ const Intro = ( { cid }) => {
             <p className='intro-name'>{Texts.home.intro.name}</p>
             <p className='intro-tags'>{Texts.home.intro.tags}</p>
             <p className='intro-description'>{Texts.home.intro.description}</p>
-            <img className="clickable intro-scroll" src={ScrollIcon} alt="Scroll icon"></img>
-            <p className='clickable intro-scroll-text'>{scrollText}</p>
+            <img onClick={scrollToSection} className="clickable intro-scroll" src={ScrollIcon} alt="Scroll icon"></img>
+            <p onClick={scrollToSection} className='clickable intro-scroll-text'>{scrollText}</p>
         </div>
     )
+
+    function scrollToSection() {
+        document.getElementById(scrollTo).scrollIntoView({behavior: "smooth"})
+    }
 }
 
 export default Intro
