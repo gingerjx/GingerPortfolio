@@ -70,6 +70,20 @@ const Cheaclo = () => {
               </div>
               <ChapterTitle text={Texts.cheaclo.technology}/>
             </div>
+            <div className='chapter'>
+              <div className='content'>
+                <p>{Texts.cheaclo.presentationText}</p>
+                <p>{Texts.cheaclo.videoIntro}</p>
+                <p>
+                  {Texts.cheaclo.moreDetails} 
+                  <a href={Texts.cheaclo.aboutLink} target="_blank" rel="noreferrer">
+                    <b>Github</b>
+                  </a>
+                  .
+                </p>
+              </div>
+              <ChapterTitle text={Texts.cheaclo.presentation}/>
+            </div>
           </div>
 };
 
