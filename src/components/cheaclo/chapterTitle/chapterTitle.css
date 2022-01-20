@@ -1,0 +1,19 @@
+.chapter-title {
+    width: 30%;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+}
+
+.chapter-title > p {
+    white-space: nowrap;
+}
+
+.chapter-title > hr {
+    min-width: 4em;
+    flex-grow: 1;
+    margin-left: 1em;
+    height: 1px;
+    border: none;
+    background-color: #C5BDD8;
+}
