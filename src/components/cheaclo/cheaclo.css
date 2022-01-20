@@ -1,5 +1,6 @@
 .cheaclo-container {
     margin-left: 12em;
+    text-align: justify;
 }
 
 .cheaclo-container > h1 {
@@ -9,6 +10,7 @@
 .cheaclo-container > .chapter {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4em;
 }
 
 .cheaclo-container > .chapter > .content {
@@ -17,6 +19,5 @@
 }
 
 .cheaclo-container > .chapter > .content > p {
-    text-align: justify;
     margin-bottom: 2em;
 }
