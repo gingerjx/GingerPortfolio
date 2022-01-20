@@ -22,6 +22,11 @@
     margin-bottom: 2em;
 }
 
+.cheaclo-container > .chapter > .content > video {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 .cheaclo-container > .chapter > .content > p > a {
     text-decoration: none;
     color: #C5BDD8;

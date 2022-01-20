@@ -18,6 +18,8 @@ import frontIcon from './assets/web-design.svg'
 import registryIcon from './assets/cloud.svg'
 import gatewayIcon from './assets/gateway.svg'
 
+import vid from './assets/cheaclo_full.webm'
+
 const Cheaclo = () => {
   return <div className='cheaclo-container'>
             <h1>{Texts.cheaclo.title}</h1>
@@ -74,6 +76,10 @@ const Cheaclo = () => {
               <div className='content'>
                 <p>{Texts.cheaclo.presentationText}</p>
                 <p>{Texts.cheaclo.videoIntro}</p>
+                <video controls>
+                  <source src={vid} type="video/webm"/>
+                  Your browser does not support HTML video.
+                </video>
                 <p>
                   {Texts.cheaclo.moreDetails} 
                   <a href={Texts.cheaclo.aboutLink} target="_blank" rel="noreferrer">
