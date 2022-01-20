@@ -105,20 +105,27 @@ const Texts = {
         technologyText : `Using Cheaclo you have easy access to offers from different shops. The architecture is based on microservices approach and the app consist of 6 microservices presented below. Unfortunately, because of the resources required by <b>Web Scraper</b>, project couldn't be deployed on free hostings.`,
         webScraper : 'Web Scraper',
         webScraperText : 'Using Selenium library, microservice scraps three sites: HM, C&A and Reserved. After data is collected it is send to <b>Clothing Database</b>.',
+        webScraperLink : 'https://github.com/cheaclo/web-scrapper',
         clothesDatabase : 'Clothes Database',
         clothesDatabaseText : `Is in charge of managing and giving an access to database of clothes. It is equiped in system of add new , updating existing and deleting expired offers from the database.`,
+        clothesDatabaseLink : 'https://github.com/cheaclo/clothes-database',
         usersDatabase : 'Users Database',
         usersDatabaseText : `Is responsible for maintaining information about singed up user and managing of the login system.`,
+        usersDatabaseLink : 'https://github.com/cheaclo/users-database',
         clientFront : 'Client Front',
         clientFrontText : `Visualise clothes offers and related functionalites, in a form of web application.`,
+        clientFrontLink : 'https://github.com/cheaclo/client-front',
         serviceRegistry : 'Service Registery',
         serviceRegistryText : 'Manages the work of microservice architecture. It helps to organize hostnames of the other component.',
+        serviceRegistryLink : 'https://github.com/cheaclo/service-registery',
         cloudGateway : 'Cloud Gateway',
         cloudGatewayText : `Same as <b>Service Registry</b> it is a support for used architecture. By maping hostnames to one, common hostname it creates abstract layer, which hides the whole server logic from user's eyesight.`,
+        cloudGatewayLink : 'https://github.com/cheaclo/cloud-gateway',
         presentation : 'Presentation',
         presentationText : `Current implementation is just the first version of wide-developed application. It is possible too add much more features, like logging through the google account or notifications about previously offers marked as desired. This would make the application even simpler and time-reducing. Apart from small additions, I was thinking about adding Recommendation System for logged users, based on Machine Learning, which can be a topic of Master Thesis 🤔`,
         videoIntro : `Below u can find a quick video presenting platform's workflow.`,
         moreDetails : `For more details, check`,
+        aboutLink : 'https://github.com/cheaclo/about'
     }
 }
 
