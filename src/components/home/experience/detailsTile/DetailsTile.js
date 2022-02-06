@@ -8,7 +8,6 @@ const DetailsTile = ({ tile }) => {
             <p className='home-experience-details-position'>{tile.position}</p>
             <p className='home-experience-details-location'>{tile.location}</p> 
             <p className='home-experience-details-description'>{tile.description}</p> 
-            <DetailsButton isOrange={false}/>
             <div className='home-experience-details-date-wrapper'>
                 <p>{tile.dates}</p>
             </div>
