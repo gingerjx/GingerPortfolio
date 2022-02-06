@@ -6,16 +6,19 @@ import {
   Route
 } from "react-router-dom";
 import Cheaclo from './components/cheaclo/Cheaclo';
+import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
   return (
     <div>
       <Links/>
       <Router>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/cheaclo' element={<Cheaclo/>}/>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/cheaclo' element={<Cheaclo/>}/>
+          </Routes>
+        </ScrollToTop>
       </Router>
     </div>
   );
