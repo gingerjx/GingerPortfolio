@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #352F44;
+  background: rgb(53,47,68);
+  background: linear-gradient(137deg, rgba(53,47,68,1) 8%, rgba(53,47,68,0.9248074229691877) 72%);
   font-family: "Sen";
   margin: 0;
   color: #C5BDD8;
