@@ -17,11 +17,13 @@ import usersIcon from './assets/user.svg'
 import frontIcon from './assets/web-design.svg'
 import registryIcon from './assets/cloud.svg'
 import gatewayIcon from './assets/gateway.svg'
+import BackButton from '../common/backButton/BackButton'
 
 import vid from './assets/cheaclo_full.webm'
 
 const Cheaclo = () => {
   return <div className='cheaclo-container'>
+            <BackButton></BackButton>
             <h1>{Texts.cheaclo.title}</h1>
             <div className='chapter'>
               <div className='content'>
