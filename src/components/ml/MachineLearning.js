@@ -7,7 +7,7 @@ import Plots from './plot/Plots';
 import gif from './assets/animation.gif'
 
 const MachineLearning = () => {
-  return <div className='cheaclo-container'>
+  return <div className='ml-container'>
             <BackButton></BackButton>
             <h1>{Texts.ml.title}</h1>
             <div className='chapter'>

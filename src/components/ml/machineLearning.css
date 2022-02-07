@@ -1,23 +1,29 @@
-.cheaclo-container {
+.ml-container {
     margin-left: 12em;
     text-align: justify;
 }
 
-.cheaclo-container > h1 {
+.ml-container > h1 {
     font-size: 3em;
 }
 
-.cheaclo-container > .chapter {
+.ml-container > .chapter {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4em;
 }
 
-.cheaclo-container > .chapter > .content {
+.ml-container > .chapter > .content {
     margin-right: 2em;
     width: 60%;
 }
 
-.cheaclo-container > .chapter > .content > * {
+.ml-container > .chapter > .content > * {
     margin-bottom: 2em;
+}
+
+.ml-container > .chapter > .content > p > a {
+    text-decoration: none;
+    color: #C5BDD8;
+    margin-left: 0.5em;
 }
