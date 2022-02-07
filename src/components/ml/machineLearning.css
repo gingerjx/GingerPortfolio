@@ -18,12 +18,6 @@
     width: 60%;
 }
 
-.cheaclo-container > .chapter > .content > p {
+.cheaclo-container > .chapter > .content > * {
     margin-bottom: 2em;
 }
-
-/* .cheaclo-container > .chapter > .content > p > a {
-    text-decoration: none;
-    color: #C5BDD8;
-    margin-left: 0.5em;
-} */
