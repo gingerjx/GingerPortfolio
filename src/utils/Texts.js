@@ -150,6 +150,24 @@ const Texts = {
         presentationText : 'Snake is trained to gain around 30 fruits on the board 10x10 per game. Of course the performence can be imporved buy extending the implementation by adding new technics. Nevertheless, current score is sufficient that’s why I stopped on this point. Below I share with you a performance of Smart Snake!',
         smartSnakeDetails : 'For more details check',
         smartSnakeLink : 'https://github.com/gingerjx/SmartSnake',
+    },
+    os : {
+        title : 'Operating Systems',
+        aFewWords : 'A few words',
+        aFewWordsText1 : 'Without operating systems, the present world development couldn’t be achieved. To create your own, a lot of effort has to be put. Operating system consists of many components, which are responsible for some part of the whole. Some of them I covered during the classes on my studies. Let me introduce them 💻',
+        memoryManagement : 'Memory Management',
+        memoryManagementText : `Project provides implementation of dynamic alocation. It provides <b>my_stdlib</b> library, which provides similar API to <b>stdlib</b>. With use of custom_sbrk, library receives the memory from the system and manages it. It’s a thread-safe solution, which covers the topics like control blocks, spaces for data or fences.`,
+        memoryManagementDetails : 'For more details check',
+        memoryManagementLink : 'https://github.com/gingerjx/MemoryManagment',
+        ipc : 'IPC',
+        ipcText1 : 'Interprocess communitcation project visualized with a simple console game, using ncurses library. Player’s goal is to collect the rewards and store them in the campside. He can’t go throigh the wall, and the bushes slow him down. In case of collision with other the client or the beast, player loses his treasure and leaves it one the map. Each client (player or bot) connects to the game through seperate terminal.',
+        ipcText2 : 'The implementation is based on mechanisms like semaphores, shared memory and threads. Server is designed only for 4 players and will reject any request to join above this limit. Server as well as clients are seperated processes.',
+        ipcDetails : 'For more details check',
+        ipcLink : 'https://github.com/gingerjx/IPC',
+        fat12 : 'FAT12',
+        fat12Text : 'Simple implementation of Fat12 file system reader. All what has to be done is to pass the .bin file based on Fat12 and the simple program, which share useful commands, let us searching through the disk.',
+        fat12Details : 'For more details check ',
+        fat12Link : 'https://github.com/gingerjx/Fat12View'
     }
 }
 
