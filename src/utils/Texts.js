@@ -126,6 +126,30 @@ const Texts = {
         videoIntro : `Below u can find a quick video presenting platform's workflow.`,
         moreDetails : `For more details, check`,
         aboutLink : 'https://github.com/cheaclo/about'
+    },
+    ml : {
+        title : 'Machine Learning',
+        aFewWords : 'A few words',
+        aFewWordsText1 : 'During my 5th semester in Lodz University I had a pleasure to participate in ISP - Individual Study Plan. It made it possible for me to replace one subject with the project I want to realise. I decided to focus on Machine Learning.',
+        aFewWordsText2 : 'First step was to attend to laboratories, where I was learning and implementing from scratch our neural networks. After that I started to implement Reinforcement Learning approaches on an example of Snake Game 🐍',
+        neuralNetwork : 'Neural Network',
+        neuralNetworkText : 'The goal of this part was to create a small API performing neural network solutions. Its efficiency was tested on MNIST database. Using this implementation you are able to create your own neural network with custom number of layers and neurons in it. There is additional thing to use - activation function, which says how data are manipulated. Few of them are ready to use in this implementation:',
+        neuralNetworkDetails : 'For more details check',
+        neuralNetworkLink : 'https://github.com/gingerjx/HelloNeuralNetwork',
+        smartSnake : 'Smart Snake',
+        smartSnakeText1 : `This is the final project presenting the usage of Reinforcement Leanring. In this implementation, instead of users input, snake is led by Double Deep Q Learning Agent. Snake can perform one of four actions - going up, down, left or right. His goal is to choose sequence of actions, which lead to gather the highest possible number of fruits rendered on the board.`,
+        smartSnakeText2 : `To reach this level of “intelligence”, snake is trained in environment before, until it is able to reach required level. The main thing is to pass to the snake the information how the environment currently looks like, to let him decide which action he should take. That information is state, which consist of:`,
+        smartSnakePoint1 : `Snake's move direction.`,
+        smartSnakePoint2 : `Information about presence of any obstacle next to him in every direction.`,
+        smartSnakePoint3 : `Information about presence of fruit in every direction.`,
+        smartSnakePoint4 : `Information about distance to wall in every direction.`,
+        smartSnakePoint5 : `Information about amount of snake's body segments in every direction.`,
+        smartSnakePoint6 : `Snake's length.`,
+        smartSnakePoint7 : `Distance between head and tail`,
+        presentation : 'Presentation',
+        presentationText : 'Snake is trained to gain around 30 fruits on the board 10x10 per game. Of course the performence can be imporved buy extending the implementation by adding new technics. Nevertheless, current score is sufficient that’s why I stopped on this point. Below I share with you a performance of Smart Snake!',
+        smartSnakeDetails : 'For more details check',
+        smartSnakeLink : 'https://github.com/gingerjx/SmartSnake',
     }
 }
 
