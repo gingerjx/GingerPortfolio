@@ -1,0 +1,19 @@
+.ml-plots {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.ml-plots > .plot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ml-plots > .plot > img {
+    width: 80%;
+}
+
+.ml-plots > .plot > p {
+    margin-top: 1em;
+    font-weight: bold;
+}

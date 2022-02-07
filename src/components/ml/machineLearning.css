@@ -22,13 +22,8 @@
     margin-bottom: 2em;
 }
 
-.cheaclo-container > .chapter > .content > video {
-    width: 100%;
-    margin-bottom: 2em;
-}
-
-.cheaclo-container > .chapter > .content > p > a {
+/* .cheaclo-container > .chapter > .content > p > a {
     text-decoration: none;
     color: #C5BDD8;
     margin-left: 0.5em;
-}
+} */
