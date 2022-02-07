@@ -87,12 +87,12 @@ const Texts = {
             runStudentRun : {
                 title : 'RunStudentRun',
                 description : 'Unity game for android, where you have to survive in the university jungle.',
-                url : 'https://github.com/gingerjx/RunStudentRun' //TODO
+                url : 'https://github.com/gingerjx/RunStudentRun'
             },
             alertMe : {
                 title : 'AlertMe',
                 description : 'Android application for adding and searching alerts in your surrounding.',
-                url : 'https://github.com/221003/AlertMeApp'
+                url : 'https://github.com/gingerjx/AlertMeApp'
             }
         }
     },

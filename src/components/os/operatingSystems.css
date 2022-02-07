@@ -28,26 +28,27 @@
     margin-left: 0.5em;
 }
 
-.os-container > .chapter > .content > .mm {
+.os-container > .chapter > .content-horizontal {
     display: flex;
+    width: 60%;
 }
 
-.os-container > .chapter > .content > .mm > img {
+.os-container > .chapter > .content-horizontal > img {
     height: 15em;
     margin-right: 3em;
 }
 
-.os-container > .chapter > .content > .mm > div {
+.os-container > .chapter > .content-horizontal > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.os-container > .chapter > .content > .mm > div >  * {
+.os-container > .chapter > .content-horizontal > div >  * {
     margin-bottom: 2em;
 }
 
-.os-container > .chapter > .content > .mm > div > p > a {
+.os-container > .chapter > .content-horizontal > div > p > a {
     text-decoration: none;
     color: #C5BDD8;
     margin-left: 0.5em;
