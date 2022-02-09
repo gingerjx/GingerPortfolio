@@ -1,0 +1,7 @@
+@media screen and (max-width: 1280px) {
+
+    .nav-container {
+        display: none;
+    }
+
+}

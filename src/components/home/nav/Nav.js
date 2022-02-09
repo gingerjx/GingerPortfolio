@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { useEffect } from 'react/cjs/react.development'
-import './nav.css'
+import './nav_big.css'
+import './nav_small.css'
 
 const Nav = ( { introId, highlightsId, experienceId, moreId }) => {
     const [intro, setIntro] = useState({
