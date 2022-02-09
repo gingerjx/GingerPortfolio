@@ -20,6 +20,12 @@
         display: none;
     }
 
+    .os-container > .chapter > .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .os-container > .chapter > .content > * {
         margin-bottom: 2em;
     }

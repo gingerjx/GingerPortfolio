@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px) {
+        
+    .cheaclo-container {
+        margin: 0 1em;
+        text-align: justify;
+    }
+
+    .cheaclo-container > h1 {
+        font-size: 3em;
+    }
+
+    .cheaclo-container > .chapter {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 4em;
+    }
+
+    .cheaclo-container > .chapter > .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cheaclo-container > .chapter > .content > p {
+        margin-bottom: 2em;
+    }
+
+    .cheaclo-container > .chapter > .content > video {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .cheaclo-container > .chapter > .content > p > a {
+        text-decoration: none;
+        color: #C5BDD8;
+        margin-left: 0.5em;
+    }
+
+}

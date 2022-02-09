@@ -1,5 +1,6 @@
 import React from 'react';
-import './cheaclo.css'
+import './cheaclo_big.css'
+import './cheaclo_small.css'
 import Texts from '../../utils/Texts'
 import ChapterTitle from '../common/chapterTitle/ChapterTitle';
 import Microservice from './microservice/Microservice';
