@@ -1,5 +1,6 @@
 import React from 'react'
-import './intro.css'
+import './intro_big.css'
+import './intro_small.css'
 import ScrollIcon from './assets/scroll-icon.svg'
 import Texts from '../../../utils/Texts'
 
