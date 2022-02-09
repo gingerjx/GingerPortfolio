@@ -25,7 +25,7 @@ const Texts = {
         },
         experience : {
             bachelor : {
-                position : "Student Computer Science Bachelor",
+                position : "Student of Computer Science - Bachelor",
                 location : "Technology University of Lodz",
                 description : "TUL was an entity, which introduced me into world of Computer Science. Many modules, ranging from embedded systems to graphic design, helped me create a point of view what IT is.",
                 dates : "10.2018 - 02.2022"
@@ -55,7 +55,7 @@ const Texts = {
                 dates : "02.2022 - Present"
             },
             masters : {
-                position : "Student Computer Science Master",
+                position : "Student of Computer Science - Master",
                 location : "Warsaw University of Technology",
                 description : "To be written.",
                 dates : "03.2022 - Present"
