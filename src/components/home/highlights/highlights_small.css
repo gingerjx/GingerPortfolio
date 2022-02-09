@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+
+    .highlights-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5em;
+    }
+
+    .highlights-experience-title {
+        text-align: center;
+    }
+}

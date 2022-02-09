@@ -1,6 +1,7 @@
 import React from 'react'
 import Description from './description/Description'
-import './section.css'
+import './section_big.css'
+import './section_small.css'
 
 const Section = ({ data }) => {
     const descriptionData = {

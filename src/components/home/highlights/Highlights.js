@@ -1,5 +1,6 @@
 import React from 'react'
-import './highlights.css'
+import './highlights_big.css'
+import './highlights_small.css'
 import Section from './section/Section'
 import WebDevIcon from './assets/web_developement.svg'
 import MLIcon from './assets/machine_learning.svg'
@@ -31,6 +32,7 @@ const Highlights = ( { cid } ) => {
     
     return (
         <div id={cid} className='highlights-container'>
+            <h1 className='highlights-experience-title'>Highlights</h1>
             <Section data={WebDev}/>
             <Section addMargin={true} data={ML}/>
             <Section data={OS}/>

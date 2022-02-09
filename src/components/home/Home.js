@@ -17,7 +17,7 @@ const Home = () => {
         <div className='home-container'>
             <Nav introId={introId} highlightsId={highlightsId} experienceId={experienceId} moreId={moreId}></Nav>
             <Intro scrollTo={highlightsId} cid={introId}/>
-            {/* <Highlights cid={highlightsId}/> */}
+            <Highlights cid={highlightsId}/>
             <Experience cid={experienceId}/>
             {/* <More cid={moreId}/> */}
         </div>

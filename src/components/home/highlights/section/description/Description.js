@@ -1,5 +1,6 @@
 import React from 'react'
-import './description.css'
+import './description_big.css'
+import './description_small.css'
 import DetailsButton from '../../../../common/details-button/DetailsButton'
 
 const Description = ({ data }) => {

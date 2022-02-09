@@ -1,8 +1,0 @@
-.highlights-container {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    box-sizing: border-box;
-    padding-top: 2em;
-    padding-bottom: 4em;
-}

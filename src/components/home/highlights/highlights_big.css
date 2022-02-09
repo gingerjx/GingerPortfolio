@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) {
+        
+    .highlights-container {
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+        box-sizing: border-box;
+        padding-top: 2em;
+        padding-bottom: 4em;
+    }
+
+    .highlights-experience-title {
+        display: none;
+    }
+}
