@@ -63,7 +63,7 @@ const Texts = {
         },
         more : {
             generalOne : 'My main focus is Web Developement with Java based backend. However, in my opinion, developer should be aware of many branches in IT.That\'s why I highlighted to you Machine Learning and Operating System solutions.',
-            generalTwo : 'If you aren\'t bored yet, I have some small projects on the right for you. In case you are interested in cooperation, don\'t hestitate to contact me and if needed, catch resume below!',
+            generalTwo : 'If you aren\'t bored yet, I have some small projects for you. In case you are interested in cooperation, don\'t hestitate to contact me and if needed, catch resume below!',
             neural : {
                 title : 'HelloNeuralNetwork',
                 description : 'Implementation of Deep Neural Network able to recognize digits from MNIST database.',

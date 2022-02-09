@@ -22,6 +22,7 @@
 
     .home-experience-details-description {
         flex-grow: 10;
+        text-align: justify;
     }
 
     .home-experience-details-date-wrapper {

@@ -19,7 +19,7 @@ const Home = () => {
             <Intro scrollTo={highlightsId} cid={introId}/>
             <Highlights cid={highlightsId}/>
             <Experience cid={experienceId}/>
-            {/* <More cid={moreId}/> */}
+            <More cid={moreId}/>
         </div>
     )
 }

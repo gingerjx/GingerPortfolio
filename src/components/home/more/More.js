@@ -1,5 +1,6 @@
 import React from 'react'
-import './more.css'
+import './more_big.css'
+import './more_small.css'
 import Texts from '../../../utils/Texts'
 import NeuralIcon from './assets/connection.svg'
 import BeChefIcon from './assets/chef.svg'
@@ -38,6 +39,7 @@ const More = ( { cid } ) => {
 
     return (
         <div id={cid} className='home-more-container'>
+            <h1 className='home-more-title'>More</h1>
             <div className='home-more-gen-container'>
                 <p>{Texts.home.more.generalOne}</p>
                 <p>{Texts.home.more.generalTwo}</p>

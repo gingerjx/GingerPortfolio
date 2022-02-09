@@ -1,5 +1,6 @@
 import React from 'react'
-import './tile.css'
+import './tile_big.css'
+import './tile_small.css'
 
 const Tile = ({ data }) => {
     return (

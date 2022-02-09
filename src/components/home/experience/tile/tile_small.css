@@ -21,6 +21,7 @@
 
     .home-experience-tile-details {
         margin-top: 2em;
+        text-align: justify;
     }
 
     .home-experience-tile-date-wrapper {
