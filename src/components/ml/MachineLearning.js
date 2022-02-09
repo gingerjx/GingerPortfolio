@@ -1,5 +1,6 @@
 import React from 'react';
-import './machineLearning.css'
+import './machineLearning_big.css'
+import './machineLearning_small.css'
 import Texts from '../../utils/Texts'
 import ChapterTitle from '../common/chapterTitle/ChapterTitle';
 import BackButton from '../common/backButton/BackButton'

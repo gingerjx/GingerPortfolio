@@ -1,0 +1,34 @@
+@media screen and (max-width: 1024px) {
+        
+    .ml-container {
+        margin: 0 1em;
+        text-align: justify;
+    }
+
+    .ml-container > h1 {
+        font-size: 3em;
+    }
+
+    .ml-container > .chapter {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 4em;
+    }
+
+    .ml-container > .chapter > .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ml-container > .chapter > .content > * {
+        margin-bottom: 2em;
+    }
+
+    .ml-container > .chapter > .content > p > a {
+        text-decoration: none;
+        color: #C5BDD8;
+        margin-left: 0.5em;
+    }
+
+}
