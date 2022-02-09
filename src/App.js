@@ -13,7 +13,6 @@ import ScrollToTop from './utils/ScrollToTop';
 function App() {
   return (
     <div>
-      <Links/>
       <Router>
         <ScrollToTop>
           <Routes>
@@ -24,6 +23,7 @@ function App() {
           </Routes>
         </ScrollToTop>
       </Router>
+      <Links/>
     </div>
   );
 }

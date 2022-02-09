@@ -6,7 +6,9 @@
 body {
   background: rgb(53,47,68);
   background: linear-gradient(137deg, rgba(53,47,68,1) 2%, rgba(53,47,68,0.9248074229691877) 60%);
+  background-attachment: fixed;
   font-family: "Sen";
+  height: 100%;
   margin: 0;
   color: #C5BDD8;
 }

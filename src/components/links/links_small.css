@@ -1,6 +1,36 @@
 @media screen and (max-width: 1024px) {
 
     .links-container {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: rgb(53,47,68);
+        padding: 1em;
+    }
+
+    .links-copyMessage {
+        display: none;
+    }
+
+    .links-visible {
+        opacity: 1;
+    }
+
+    .links-hidden {
+        opacity: 0;
+        transition: all 250ms linear 1s;
+    }
+
+    .links-icon {
+        width: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .links-vertical-line {
+        
         display: none;
     }
 
