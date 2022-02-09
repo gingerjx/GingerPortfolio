@@ -1,5 +1,6 @@
 import React from 'react'
-import './backButton.css'
+import './backButton_big.css'
+import './backButton_small.css'
 import arrow from './assets/arrow.svg'
 import { Link } from 'react-router-dom'
 
