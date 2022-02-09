@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import './links.css'
+import './links_big.css'
+import './links_small.css'
 import gmailIcon from './assets/gmail.svg'
 import githubIcon from './assets/github.svg'
 import linkedinIcon from './assets/linkedin.svg'
