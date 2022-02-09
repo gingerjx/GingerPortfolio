@@ -30,15 +30,11 @@
     }
 
     .intro-scroll {
-        align-self: center;
-        width: 5em;
-        margin-top: 3em;
+        display: none;
     }
 
     .intro-scroll-text {
-        align-self: center;
-        color: #C26D30;
-        font-weight: bold;
+        display: none;
     }
 
 }
