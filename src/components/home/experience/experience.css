@@ -1,9 +1,0 @@
-.home-experience-container {
-    display: grid;
-    box-sizing: border-box;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr;
-    gap: 2em;
-    height: 100vh;
-    padding: 3em 0;
-}

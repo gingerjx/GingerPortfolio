@@ -1,5 +1,6 @@
 import React from 'react'
-import './tile.css'
+import './tile_big.css'
+import './tile_small.css'
 
 const Tile = ({ data }) => {
     const styleActive = { background : 'linear-gradient(0deg, rgba(42,36,56,1) 10%, rgba(194,109,48,1) 100%)' }
@@ -10,6 +11,7 @@ const Tile = ({ data }) => {
         <div onClick={data.clickEvent} style={background} className='clickable home-experience-tile-container'>
             <p className='home-experience-tile-position'>{data.position}</p>
             <p className='home-experience-tile-location'>{data.location}</p> 
+            <p className='home-experience-tile-details'>{data.description}</p> 
             <div className='home-experience-tile-date-wrapper'>
                 <p className='home-experience-tile-dates'>{data.dates}</p>
             </div>        

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import './experience.css'
+import './experience_big.css'
+import './experience_small.css'
 import Tile from './tile/Tile'
 import Texts from '../../../utils/Texts'
 import DetailsTile from './detailsTile/DetailsTile'
@@ -53,6 +54,7 @@ const Experience = ( { cid }) => {
 
     return (
         <div id={cid} className='home-experience-container'>
+            <h1 className='home-experience-title'>Experience</h1>
             <Tile data={bachelor}></Tile>            
             <Tile data={samsung}></Tile>  
             <Tile data={iLab}></Tile>

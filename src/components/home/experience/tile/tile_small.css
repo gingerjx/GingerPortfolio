@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+
+    .home-experience-tile-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .home-experience-tile-position {
+        font-size: 1.25em;
+        font-weight: bold;
+        flex-grow: 1;
+        margin-bottom: 0.5em;
+    }
+
+    .home-experience-tile-location {
+        font-size: 1.25em;
+        flex-grow: 2;
+    }
+
+    .home-experience-tile-details {
+        margin-top: 2em;
+    }
+
+    .home-experience-tile-date-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2em;
+    }
+
+}

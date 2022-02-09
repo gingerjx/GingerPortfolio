@@ -1,6 +1,6 @@
 import React from 'react'
-import './detailsTile.css'
-import DetailsButton from '../../../common/details-button/DetailsButton'
+import './detailsTile_big.css'
+import './detailsTile_small.css'
 
 const DetailsTile = ({ tile }) => {
     return (

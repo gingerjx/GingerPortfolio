@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+
+    .home-experience-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-experience-title {
+        text-align: center;
+    }
+}

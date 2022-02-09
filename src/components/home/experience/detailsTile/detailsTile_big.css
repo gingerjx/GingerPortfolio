@@ -1,0 +1,33 @@
+@media screen and (min-width: 1024px) {
+
+    .home-experience-details-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+        grid-row: 1 / span 2;
+        grid-column: 4;
+        background: linear-gradient(0deg, rgba(194,109,48,1) 10%, rgba(42,36,56,1) 100%);
+    }
+
+    .home-experience-details-position {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .home-experience-details-location {
+        font-size: 1.25em;
+        margin-bottom: 1.5em;
+    }
+
+    .home-experience-details-description {
+        flex-grow: 10;
+    }
+
+    .home-experience-details-date-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1em;
+    }
+
+}
