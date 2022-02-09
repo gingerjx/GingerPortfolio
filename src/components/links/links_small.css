@@ -29,9 +29,11 @@
         margin-bottom: 0.5em;
     }
 
-    .links-vertical-line {
-        
+    .links-vertical-line {  
         display: none;
     }
 
+    .links-container > .gmail > img {
+        display: none;
+    }
 }

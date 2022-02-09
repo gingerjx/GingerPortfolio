@@ -40,4 +40,7 @@
         height: 5em;
     }
 
+    .links-container > .gmail > p {
+        display: none;
+    }
 }
