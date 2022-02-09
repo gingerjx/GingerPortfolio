@@ -1,5 +1,6 @@
 import React from 'react';
-import './operatingSystems.css'
+import './operatingSystems_big.css'
+import './operatingSystems_small.css'
 import Texts from '../../utils/Texts'
 import ChapterTitle from '../common/chapterTitle/ChapterTitle';
 import BackButton from '../common/backButton/BackButton'

@@ -1,0 +1,63 @@
+@media screen and (max-width: 1024px) {
+        
+    .os-container {
+        margin: 0 1em;
+        text-align: justify;
+    }
+
+    .os-container > h1 {
+        font-size: 3em;
+    }
+
+    .os-container > .chapter {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-bottom: 4em;
+    }
+
+    .os-container > .chapter > .bottom-title {
+        display: none;
+    }
+
+    .os-container > .chapter > .content > * {
+        margin-bottom: 2em;
+    }
+
+    .os-container > .chapter > .content > img {
+        max-width: 100%;
+    }
+
+    .os-container > .chapter > .content > p > a {
+        text-decoration: none;
+        color: #C5BDD8;
+        margin-left: 0.5em;
+    }
+
+    .os-container > .chapter > .content-horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .os-container > .chapter > .content-horizontal > img {
+        height: 10em;
+        margin-bottom: 2em;
+    }
+
+    .os-container > .chapter > .content-horizontal > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .os-container > .chapter > .content-horizontal > div >  * {
+        margin-bottom: 2em;
+    }
+
+    .os-container > .chapter > .content-horizontal > div > p > a {
+        text-decoration: none;
+        color: #C5BDD8;
+        margin-left: 0.5em;
+    }
+
+}
