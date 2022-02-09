@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+
+    .chapter-title {
+        font-size: 2em;
+        font-weight: bold;
+        display: flex;
+        margin-bottom: 1em;
+    }
+
+    .chapter-title > p {
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .chapter-title > hr {
+        display: none;
+    }
+
+}

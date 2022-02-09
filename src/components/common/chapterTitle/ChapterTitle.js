@@ -1,5 +1,6 @@
 import React from 'react';
-import './chapterTitle.css'
+import './chapterTitle_big.css'
+import './chapterTitle_small.css'
 
 const ChapterTitle = ({ text }) => {
   return <div className='chapter-title'>
