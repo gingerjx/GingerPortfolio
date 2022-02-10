@@ -23,7 +23,7 @@ const OperatingSystems = () => {
                 <img src={Ram} alt='Ram' />
                 <div>
                   <p dangerouslySetInnerHTML={{ __html: Texts.os.memoryManagementText}}></p>
-                  <p>
+                  <p className='center'>
                     {Texts.os.memoryManagementDetails} 
                     <a href={Texts.os.memoryManagementLink} target="_blank" rel="noreferrer">
                       <b>Github</b>
@@ -54,7 +54,7 @@ const OperatingSystems = () => {
                 <img src={Disk} alt='Disk' />
                 <div>
                   <p>{Texts.os.fat12Text}</p>
-                  <p>
+                  <p className='center'>
                     {Texts.os.fat12Details} 
                     <a href={Texts.os.fat12Link} target="_blank" rel="noreferrer">
                       <b>Github</b>

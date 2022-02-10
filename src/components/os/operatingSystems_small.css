@@ -60,6 +60,10 @@
         margin-bottom: 2em;
     }
 
+    .os-container > .chapter > .content-horizontal > div > .center {
+        text-align: center;
+    }
+
     .os-container > .chapter > .content-horizontal > div > p > a {
         text-decoration: none;
         color: #C5BDD8;

@@ -9,7 +9,7 @@ const Texts = {
         highlights : {
             webdev : {
                 title : "WEB DEVELOPEMENT",
-                content : "<b>Cheaclo</b> project is an aggregator of discounted clothes offers. Discover new platform with many functionalities and great layout. If you are shopping frea, you have to check it out!",
+                content : "<b>Cheaclo</b> project is an aggregator of discounted clothes offers. Discover new platform with many functionalities and great layout. If you are shopping freak, you have to check it out!",
                 tags : "#WebDev #Scraping #Spring #Angular #Java"
             },
             ml : {
@@ -62,7 +62,7 @@ const Texts = {
             },
         },
         more : {
-            generalOne : 'My main focus is Web Developement with Java based backend. However, in my opinion, developer should be aware of many branches in IT.That\'s why I highlighted to you Machine Learning and Operating System solutions.',
+            generalOne : 'My main focus is Web Developement with Java based backend. However, in my opinion, developer should be aware of many branches in IT. That\'s why I highlighted to you Machine Learning and Operating System solutions.',
             generalTwo : 'If you aren\'t bored yet, I have some small projects for you. In case you are interested in cooperation, don\'t hestitate to contact me and if needed, catch resume below!',
             neural : {
                 title : 'HelloNeuralNetwork',
@@ -76,7 +76,7 @@ const Texts = {
             },
             littleChat : {
                 title : 'LittleChat',
-                description : 'Simple comunicator for sending messages and files based on sockets connections.',
+                description : 'Simple comunicator for sending messages and files, based on sockets connections.',
                 url : 'https://github.com/gingerjx/LittleChat'
             },
             mazeSolving : {
@@ -99,7 +99,7 @@ const Texts = {
     cheaclo : {
         title : 'Cheaclo',
         aFewWords : 'A few words',
-        aFewWordsText1 : `Don't you feel overwhelmed about amount of information proccesed by you? It's an issue of news, email spams, but also following our interests, it takes a lot of time. The goal is too condence all of the data, as much as possible, without loosing its message. I focused on the small piece of this problem, which is searching of desired clothes on many shop pages.`,
+        aFewWordsText1 : `Don't you feel overwhelmed about amount of information proccesed by you? It's an issue of news, email spams, but also following our interests, it takes a lot of time. The goal is too condence all of the data, as much as possible, without loosing its message. I focused on the small piece of this problem, which is searching of desired clothes on many shop websites.`,
         aFewWordsText2 : `Platform is devoted to shopping freaks, who want to reduce their time spent on seeking discounted clothes offers. Many peaople I was talking with, use already sites such as Zalando or About You. Unluckily, those platforms take care of only some part of the problem. That’s why <b>Cheaclo</b>, the project which is the full solution, arose. At the same time, it is the topic of my Bachelor Thesis 🙂`,
         technology : 'Technology',
         technologyText : `Using Cheaclo you have easy access to offers from different shops. The architecture is based on microservices approach and the app consist of 6 microservices presented below. Unfortunately, because of the resources required by <b>Web Scraper</b>, project couldn't be deployed on free hostings.`,
@@ -107,13 +107,13 @@ const Texts = {
         webScraperText : 'Using Selenium library, microservice scraps three sites: HM, C&A and Reserved. After data is collected it is send to <b>Clothing Database</b>.',
         webScraperLink : 'https://github.com/cheaclo/web-scrapper',
         clothesDatabase : 'Clothes Database',
-        clothesDatabaseText : `Is in charge of managing and giving an access to database of clothes. It is equiped in system of add new , updating existing and deleting expired offers from the database.`,
+        clothesDatabaseText : `Is in charge of managing and giving an access to database of clothes. It is equiped in system of adding new , updating existing and deleting expired offers from the database.`,
         clothesDatabaseLink : 'https://github.com/cheaclo/clothes-database',
         usersDatabase : 'Users Database',
         usersDatabaseText : `Is responsible for maintaining information about singed up user and managing of the login system.`,
         usersDatabaseLink : 'https://github.com/cheaclo/users-database',
         clientFront : 'Client Front',
-        clientFrontText : `Visualise clothes offers and related functionalites, in a form of web application.`,
+        clientFrontText : `Visualises clothes offers and related functionalites, in a form of web application.`,
         clientFrontLink : 'https://github.com/cheaclo/client-front',
         serviceRegistry : 'Service Registery',
         serviceRegistryText : 'Manages the work of microservice architecture. It helps to organize hostnames of the other component.',
@@ -130,7 +130,7 @@ const Texts = {
     ml : {
         title : 'Machine Learning',
         aFewWords : 'A few words',
-        aFewWordsText1 : 'During my 5th semester in Lodz University I had a pleasure to participate in ISP - Individual Study Plan. It made it possible for me to replace one subject with the project I want to realise. I decided to focus on Machine Learning.',
+        aFewWordsText1 : 'During my 5th semester in Lodz University I had a pleasure to participate in ISP - Individual Study Plan. It made it possible for me to replace one subject with the project I wanted to realise. I decided to focus on Machine Learning.',
         aFewWordsText2 : 'First step was to attend to laboratories, where I was learning and implementing from scratch our neural networks. After that I started to implement Reinforcement Learning approaches on an example of <b>Snake Game</b> 🐍',
         neuralNetwork : 'Neural Network',
         neuralNetworkText : 'The goal of this part was to create a small API performing neural network solutions. Its efficiency was tested on MNIST database. Using this implementation you are able to create your own neural network with custom number of layers and neurons in it. There is additional thing to use - activation function, which says how data are manipulated. Few of them are ready to use in this implementation:',
@@ -138,7 +138,7 @@ const Texts = {
         neuralNetworkLink : 'https://github.com/gingerjx/HelloNeuralNetwork',
         smartSnake : 'Smart Snake',
         smartSnakeText1 : `This is the final project presenting the usage of <b>Reinforcement Leanring</b>. In this implementation, instead of users input, snake is led by Double Deep Q Learning Agent. Snake can perform one of four actions - going up, down, left or right. His goal is to choose sequence of actions, which lead to gather the highest possible number of fruits rendered on the board.`,
-        smartSnakeText2 : `To reach this level of “intelligence”, snake is trained in environment before, until it is able to reach required level. The main thing is to pass to the snake the information how the environment currently looks like, to let him decide which action he should take. That information is state, which consist of:`,
+        smartSnakeText2 : `To reach this level of “intelligence”, snake is trained in environment before, until it is able to reach required level. The main thing is to pass to the snake the information how the environment currently looks like, to let him decide which action he should take. That information is state, which consists of:`,
         smartSnakePoint1 : `Snake's move direction.`,
         smartSnakePoint2 : `Information about presence of any obstacle next to him in every direction.`,
         smartSnakePoint3 : `Information about presence of fruit in every direction.`,
@@ -147,7 +147,7 @@ const Texts = {
         smartSnakePoint6 : `Snake's length.`,
         smartSnakePoint7 : `Distance between head and tail`,
         presentation : 'Presentation',
-        presentationText : 'Snake is trained to gain around 30 fruits on the board 10x10 per game. Of course the performence can be imporved buy extending the implementation by adding new technics. Nevertheless, current score is sufficient that’s why I stopped on this point. Below I share with you a performance of Smart Snake!',
+        presentationText : 'Snake is trained to gain around 30 fruits on the board 10x10 per game. Of course the performence can be imporved buy extending the implementation by adding new technics. Nevertheless, current score is sufficient that’s why I stopped at this point. Below I share with you a performance of Smart Snake!',
         smartSnakeDetails : 'For more details check',
         smartSnakeLink : 'https://github.com/gingerjx/SmartSnake',
     },
@@ -160,12 +160,12 @@ const Texts = {
         memoryManagementDetails : 'For more details check',
         memoryManagementLink : 'https://github.com/gingerjx/MemoryManagment',
         ipc : 'IPC',
-        ipcText1 : 'Interprocess communitcation project visualized with a simple console game, using ncurses library. Player’s goal is to collect the rewards and store them in the campside. He can’t go throigh the wall, and the bushes slow him down. In case of collision with other the client or the beast, player loses his treasure and leaves it one the map. Each client (player or bot) connects to the game through seperate terminal.',
-        ipcText2 : 'The implementation is based on mechanisms like semaphores, shared memory and threads. Server is designed only for 4 players and will reject any request to join above this limit. Server as well as clients are seperated processes.',
+        ipcText1 : 'It is interprocess communitcation project visualized with a simple console game, using ncurses library. Player’s goal is to collect the rewards and store them in the campside. He can’t go through the wall, and the bushes slow him down. In case of collision with other client or the beast, player loses his treasure and leaves it one the map. Each client (player or bot) connects to the game through seperate terminal.',
+        ipcText2 : 'The implementation is based on mechanisms like semaphores, shared memory and threads. Server is designed only for 4 players and will reject any request to join above this limit. Server as well as clients are seperated processes. If u miss simple graphic games from the childhood, it is something you would like!',
         ipcDetails : 'For more details check',
         ipcLink : 'https://github.com/gingerjx/IPC',
         fat12 : 'FAT12',
-        fat12Text : 'Simple implementation of Fat12 file system reader. All what has to be done is to pass the .bin file based on Fat12 and the simple program, which share useful commands, let us searching through the disk.',
+        fat12Text : 'Simple implementation of Fat12 file system reader. All what has to be done is to pass the .bin file based on Fat12. Provided view, which shares useful commands, let us searching through the disk.',
         fat12Details : 'For more details check ',
         fat12Link : 'https://github.com/gingerjx/Fat12View'
     }
