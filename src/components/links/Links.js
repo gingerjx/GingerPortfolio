@@ -15,13 +15,13 @@ const Links = () => {
     return (
         <div className='links-container'>
             <p className={`links-copyMessage ${cpyMsgVisibility ? "links-visible" : "links-hidden"}`}>Mail copied!</p>
-            <a href={githubLink} rel="noreferrer" target="_blank">
-                <img className='links-icon' src={githubIcon} alt="Github logo"></img>
-            </a>
             <p className="clickable gmail" onClick={copyGmailToClopboard}>
                 <img className='links-icon' src={gmailIcon} alt="Gmail logo"></img>
                 <p>piotrkalota99@gmail.com</p>
             </p>
+            <a href={githubLink} rel="noreferrer" target="_blank">
+                <img className='links-icon' src={githubIcon} alt="Github logo"></img>
+            </a>
             <a href={linkedInLink} rel="noreferrer" target="_blank">
                 <img className='links-icon' src={linkedinIcon} alt="LinkedIn logo"></img>
             </a>
