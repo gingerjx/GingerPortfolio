@@ -51,14 +51,14 @@ const Texts = {
             pwc : {
                 position : "Junior Java Developer",
                 location : "PWC",
-                description : "To be written.",
+                description : "Massive amount of data is already gathered and used by finance sector, however insurance area does not want to stay behind. Therefore with my team we are creating platform for data processing, where insurance company can analyze data about their clients. Using tools such a Spring Boot or Azure Storage I am in charge of backend side of the app.",
                 dates : "02.2022 - Present"
             },
             masters : {
                 position : "Student of Computer Science - Master",
-                location : "Warsaw University of Technology",
-                description : "To be written.",
-                dates : "03.2022 - Present"
+                location : "Technology University of Denmark",
+                description : "Artificial Inteligence specialization. To be written.",
+                dates : "08.2022 - Present"
             },
         },
         more : {
