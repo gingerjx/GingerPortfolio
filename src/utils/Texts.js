@@ -58,7 +58,7 @@ const Texts = {
                 position : "Student of Computer Science - Master",
                 location : "Technology University of Denmark",
                 description : "Artificial Inteligence specialization. To be written.",
-                dates : "08.2022 - Present"
+                dates : "09.2022 - 09.2024"
             },
         },
         more : {
