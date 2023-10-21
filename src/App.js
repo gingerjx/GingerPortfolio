@@ -1,7 +1,7 @@
 import Links from './components/links/Links'
 import Home from './components/home/Home'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
