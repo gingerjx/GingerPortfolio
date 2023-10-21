@@ -16,10 +16,10 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/cheaclo' element={<Cheaclo/>}/>
-            <Route path='/machine-learning' element={<MachineLearning/>}/>
-            <Route path='/operating-systems' element={<OperatingSystems/>}/>
+            <Route path='/GingerPortfolio' element={<Home/>}/>
+            <Route path='/GingerPortfolio/cheaclo' element={<Cheaclo/>}/>
+            <Route path='/GingerPortfolio/machine-learning' element={<MachineLearning/>}/>
+            <Route path='/GingerPortfolio/operating-systems' element={<OperatingSystems/>}/>
           </Routes>
         </ScrollToTop>
       </Router>
