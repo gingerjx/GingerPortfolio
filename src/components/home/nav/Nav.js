@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { useEffect } from 'react/cjs/react.development'
 import './nav_big.css'
 import './nav_small.css'
 
@@ -29,7 +28,7 @@ const Nav = ( { introId, highlightsId, experienceId, moreId }) => {
         yPos: 0
     })
 
-    useEffect(() => {
+    React.useEffect(() => {
         window.removeEventListener('scroll', onScroll);
         window.addEventListener('scroll', onScroll, { passive: true });
         return () => window.removeEventListener('scroll', onScroll);
