@@ -1,7 +1,7 @@
 import Links from './components/links/Links'
 import Home from './components/home/Home'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -16,10 +16,10 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
-            <Route path='/GingerPortfolio' element={<Home/>}/>
-            <Route path='/GingerPortfolio/cheaclo' element={<Cheaclo/>}/>
-            <Route path='/GingerPortfolio/machine-learning' element={<MachineLearning/>}/>
-            <Route path='/GingerPortfolio/operating-systems' element={<OperatingSystems/>}/>
+            <Route exact path='/GingerPortfolio' element={<Home/>}/>
+            <Route exact path='/GingerPortfolio/cheaclo' element={<Cheaclo/>}/>
+            <Route exactpath='/GingerPortfolio/machine-learning' element={<MachineLearning/>}/>
+            <Route exact path='/GingerPortfolio/operating-systems' element={<OperatingSystems/>}/>
           </Routes>
         </ScrollToTop>
       </Router>
