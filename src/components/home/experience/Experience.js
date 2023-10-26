@@ -12,6 +12,8 @@ const Experience = ( { cid }) => {
     const [sollersActive, setSollersActive] = useState(false)
     const [pwcActive, setPwcActive] = useState(false)
     const [masterActive, setMasterActive] = useState(false)
+    const [munichActive, setMunichActive] = useState(false)
+    const [dfdsActive, setDfdsActive] = useState(false)
 
     const bachelor = {
         active : bachelorActive,
@@ -49,7 +51,20 @@ const Experience = ( { cid }) => {
         clickEvent : () => onClick(master),
         ...Texts.home.experience.masters
     }
-    const tiles = [bachelor, samsung, iLab, sollers, pwc, master]
+    const munich = {
+        active : munichActive,
+        setActive : setMunichActive,
+        clickEvent : () => onClick(munich),
+        ...Texts.home.experience.munich
+    }
+    const dfds = {
+        active : dfdsActive,
+        setActive : setDfdsActive,
+        clickEvent : () => onClick(dfds),
+        ...Texts.home.experience.dfds
+    }
+
+    const tiles = [bachelor, samsung, iLab, sollers, pwc, master, munich, dfds]
     const [activeTile, setActiveTile] = useState(bachelor)
 
     return (
@@ -58,10 +73,12 @@ const Experience = ( { cid }) => {
             <Tile data={bachelor}></Tile>            
             <Tile data={samsung}></Tile>  
             <Tile data={iLab}></Tile>
-            <DetailsTile tile={activeTile}></DetailsTile>
             <Tile data={sollers}></Tile>  
+            <DetailsTile tile={activeTile}></DetailsTile>
             <Tile data={pwc}></Tile>  
-            <Tile data={master}></Tile> 
+            <Tile data={master}></Tile>
+            <Tile data={dfds}></Tile> 
+            <Tile data={munich}></Tile>
         </div>
     )
 

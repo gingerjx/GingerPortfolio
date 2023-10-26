@@ -31,7 +31,7 @@ const Texts = {
                 dates : "10.2018 - 02.2022"
             },
             samsung : {
-                position : "C/C++ Intern",
+                position : "Software Engineer Intern",
                 location : "Samsung R&D Poland",
                 description : "This internship is my first step into proffesional IT work. Togheter with team in Warsaw and Seul, we've been refactoring EFL's Evas library, what was a big lesson about C family and common tools used in Continous Integration.",
                 dates : "07.2020 - 07.2021"
@@ -55,11 +55,23 @@ const Texts = {
                 dates : "02.2022 - Present"
             },
             masters : {
-                position : "Student of Computer Science - Master",
+                position : "Student of Human-Centered AI - Master",
                 location : "Technology University of Denmark",
-                description : "Artificial Inteligence specialization. To be written.",
-                dates : "09.2022 - 09.2024"
+                description : "I am delving into the exciting and evolving field of AI with a strong focus on human interactions and user-centered design. This program is designed to provide an in-depth understanding of AI technologies and their applications, with an emphasis on creating AI systems that enhance user experiences and benefit society.",
+                dates : "09.2022 - 02.2024"
             },
+            munich : {
+                position : "Student of Computer Science - Master",
+                location : "Technical University of Munich",
+                description : "Exploring the world of Computer Science with the strong focus on topics such as natural language processing and social networks. Working on the master thesis that will be spreading the awareness about the politics.",
+                dates : "04.2024 - 03.2025"
+            },
+            dfds : {
+                position : "Student C# Backend Developer",
+                location : "DFDS Copenhagen",
+                description : "Designing and implementing data accumulation solutions to efficiently store data, and I'm well-versed in AWS, where our services are hosted. Working closely with a talented team, I optimize these systems, honing my C# development skills and contributing to DFDS's data-driven success.",
+                dates : "12.2022 - 02.2023"
+            }
         },
         more : {
             generalOne : 'My main focus is Web Developement with Java based backend. However, in my opinion, developer should be aware of many branches in IT. That\'s why I highlighted to you Machine Learning and Operating System solutions.',
