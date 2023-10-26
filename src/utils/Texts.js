@@ -134,7 +134,7 @@ const Texts = {
         cloudGatewayText : `Same as <b>Service Registry</b> it is a support for used architecture. By maping hostnames to one, common hostname it creates abstract layer, which hides the whole server logic from user's eyesight.`,
         cloudGatewayLink : 'https://github.com/cheaclo/cloud-gateway',
         presentation : 'Presentation',
-        presentationText : `Current implementation is just the first version of wide-developed application. It is possible too add much more features, like logging through the google account or notifications about previously offers marked as desired. This would make the application even simpler and time-reducing. Apart from small additions, I was thinking about adding Recommendation System for logged users, based on Machine Learning, which can be a topic of Master Thesis 🤔`,
+        presentationText : `Current implementation is just the first version of wide-developed application. It is possible too add much more features, like logging through the google account or notifications about previously offers marked as desired. This would make the application even simpler and time-reducing. Apart from small additions, I was thinking about adding Recommendation System for logged users, based on Machine Learning.`,
         videoIntro : `Below u can find a quick video presenting platform's workflow.`,
         moreDetails : `For more details, check`,
         aboutLink : 'https://github.com/cheaclo/about'
