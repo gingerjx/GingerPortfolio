@@ -11,8 +11,8 @@ const Experience = ( { cid }) => {
     const [iLabActive, setILabActive] = useState(false)
     const [sollersActive, setSollersActive] = useState(false)
     const [pwcActive, setPwcActive] = useState(false)
-    const [masterActive, setMasterActive] = useState(false)
-    const [munichActive, setMunichActive] = useState(false)
+    const [dtuActive, setDtuActive] = useState(false)
+    const [tumActive, setTumActive] = useState(false)
     const [dfdsActive, setDfdsActive] = useState(false)
 
     const bachelor = {
@@ -45,17 +45,17 @@ const Experience = ( { cid }) => {
         clickEvent : () => onClick(pwc),
         ...Texts.home.experience.pwc
     }
-    const master = {
-        active : masterActive,
-        setActive : setMasterActive,
-        clickEvent : () => onClick(master),
-        ...Texts.home.experience.masters
+    const dtu = {
+        active : dtuActive,
+        setActive : setDtuActive,
+        clickEvent : () => onClick(dtu),
+        ...Texts.home.experience.dtu
     }
-    const munich = {
-        active : munichActive,
-        setActive : setMunichActive,
-        clickEvent : () => onClick(munich),
-        ...Texts.home.experience.munich
+    const tum = {
+        active : tumActive,
+        setActive : setTumActive,
+        clickEvent : () => onClick(tum),
+        ...Texts.home.experience.tum
     }
     const dfds = {
         active : dfdsActive,
@@ -64,7 +64,7 @@ const Experience = ( { cid }) => {
         ...Texts.home.experience.dfds
     }
 
-    const tiles = [bachelor, samsung, iLab, sollers, pwc, master, munich, dfds]
+    const tiles = [bachelor, samsung, iLab, sollers, pwc, dtu, tum, dfds]
     const [activeTile, setActiveTile] = useState(bachelor)
 
     return (
@@ -76,9 +76,9 @@ const Experience = ( { cid }) => {
             <Tile data={sollers}></Tile>  
             <DetailsTile tile={activeTile}></DetailsTile>
             <Tile data={pwc}></Tile>  
-            <Tile data={master}></Tile>
+            <Tile data={dtu}></Tile>
             <Tile data={dfds}></Tile> 
-            <Tile data={munich}></Tile>
+            <Tile data={tum}></Tile>
         </div>
     )
 

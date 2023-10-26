@@ -54,13 +54,13 @@ const Texts = {
                 description : "Massive amount of data is already gathered and used by finance sector, however insurance area does not want to stay behind. Therefore with my team we are creating platform for data processing, where insurance company can analyze data about their clients. Using tools such a Spring Boot or Azure Storage I am in charge of backend side of the app.",
                 dates : "02.2022 - Present"
             },
-            masters : {
+            dtu : {
                 position : "Student of Human-Centered AI - Master",
                 location : "Technology University of Denmark",
                 description : "I am delving into the exciting and evolving field of AI with a strong focus on human interactions and user-centered design. This program is designed to provide an in-depth understanding of AI technologies and their applications, with an emphasis on creating AI systems that enhance user experiences and benefit society.",
                 dates : "09.2022 - 02.2024"
             },
-            munich : {
+            tum : {
                 position : "Student of Computer Science - Master",
                 location : "Technical University of Munich",
                 description : "Exploring the world of Computer Science with the strong focus on topics such as natural language processing and social networks. Working on the master thesis that will be spreading the awareness about the politics.",
@@ -70,7 +70,7 @@ const Texts = {
                 position : "Student C# Backend Developer",
                 location : "DFDS Copenhagen",
                 description : "Designing and implementing data accumulation solutions to efficiently store data, and I'm well-versed in AWS, where our services are hosted. Working closely with a talented team, I optimize these systems, honing my C# development skills and contributing to DFDS's data-driven success.",
-                dates : "12.2022 - 02.2023"
+                dates : "12.2022 - 02.2024"
             }
         },
         more : {
