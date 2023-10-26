@@ -3,6 +3,7 @@ import './more_big.css'
 import './more_small.css'
 import Texts from '../../../utils/Texts'
 import NeuralIcon from './assets/connection.svg'
+import MoveItIcon from './assets/box.svg'
 import BeChefIcon from './assets/chef.svg'
 import LittleChatIcon from './assets/chat.svg'
 import MazeSolving from './assets/maze.svg'
@@ -15,6 +16,10 @@ const More = ( { cid } ) => {
     const neural = {
         icon : NeuralIcon,
         ...Texts.home.more.neural
+    }
+    const moveIt = {
+        icon : MoveItIcon,
+        ...Texts.home.more.moveIt
     }
     const beChef = {
         icon : BeChefIcon,
@@ -47,6 +52,7 @@ const More = ( { cid } ) => {
             </div>
             <div className='home-more-projects-container'>
                 <Tile data={neural}/>
+                <Tile data={moveIt}/>
                 <Tile data={beChef}/>
                 <Tile data={littleChat}/>
                 <Tile data={mazeSolving}/>

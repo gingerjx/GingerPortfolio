@@ -80,6 +80,11 @@ const Texts = {
                 title : 'HelloNeuralNetwork',
                 description : 'Implementation of Deep Neural Network able to recognize digits from MNIST database.',
                 url : 'https://github.com/gingerjx/HelloNeuralNetwork'
+            },
+            moveIt : {
+                title : 'MoveIt',
+                description : 'Algorithm finding the plan for placing agents and boxes on its goal spots.',
+                url : 'https://github.com/gingerjx/MoveIt'
             }, 
             beChef : {
                 title : 'BeChef',
