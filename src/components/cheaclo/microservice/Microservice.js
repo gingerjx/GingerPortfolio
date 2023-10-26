@@ -1,7 +1,5 @@
 import React from 'react';
 import './microservice.css'
-import Texts from '../../../utils/Texts'
-import icon from '../assets/crawler.svg'
 
 const Microservice = ({ hrefTo, icon, title, description, tags }) => {  
     return <div className='cheaclo-microservice-container'>

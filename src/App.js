@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route exact path='/GingerPortfolio' element={<Home/>}/>
             <Route exact path='/GingerPortfolio/cheaclo' element={<Cheaclo/>}/>
-            <Route exactpath='/GingerPortfolio/machine-learning' element={<MachineLearning/>}/>
+            <Route exact path='/GingerPortfolio/machine-learning' element={<MachineLearning/>}/>
             <Route exact path='/GingerPortfolio/operating-systems' element={<OperatingSystems/>}/>
           </Routes>
         </ScrollToTop>
