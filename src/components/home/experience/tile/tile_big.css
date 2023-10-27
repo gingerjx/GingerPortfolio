@@ -10,12 +10,12 @@
     .home-experience-tile-position {
         font-size: 1.25em;
         font-weight: bold;
-        flex-grow: 1;
+        height: 6em;
         margin-bottom: 1em;
     }
 
     .home-experience-tile-location {
-        font-size: 1.25em;
+        font-size: 1.0em;
         flex-grow: 4;
     }
 

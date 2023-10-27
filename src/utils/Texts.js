@@ -3,7 +3,7 @@ const Texts = {
         intro : {
             hi : "HELLO THERE, I'M",
             name : "Piotr Kalota",
-            tags : "Developer · Computer Science Student",
+            tags : "Software Engineer · Human-Centered AI Student",
             description : "If you are looking for a creative coder with wide programming skills, you are in the right place! Check out what I have for you below 🦊"
         },
         highlights : {
@@ -50,7 +50,7 @@ const Texts = {
             },
             pwc : {
                 position : "Junior Java Developer",
-                location : "PWC",
+                location : "PwC Poland",
                 description : "Massive amount of data is already gathered and used by finance sector, however insurance area does not want to stay behind. Therefore with my team we are creating platform for data processing, where insurance company can analyze data about their clients. Using tools such a Spring Boot or Azure Storage I am in charge of backend side of the app.",
                 dates : "02.2022 - Present"
             },
@@ -67,7 +67,7 @@ const Texts = {
                 dates : "04.2024 - 03.2025"
             },
             dfds : {
-                position : "Student C# Backend Developer",
+                position : "Student .Net Backend Developer",
                 location : "DFDS Copenhagen",
                 description : "Designing and implementing data accumulation solutions to efficiently store data, and I'm well-versed in AWS, where our services are hosted. Working closely with a talented team, I optimize these systems, honing my C# development skills and contributing to DFDS's data-driven success.",
                 dates : "12.2022 - 02.2024"
