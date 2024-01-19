@@ -52,7 +52,7 @@ const Texts = {
                 position : "Junior Java Developer",
                 location : "PwC Poland",
                 description : "Massive amount of data is already gathered and used by finance sector, however insurance area does not want to stay behind. Therefore with my team we are creating platform for data processing, where insurance company can analyze data about their clients. Using tools such a Spring Boot or Azure Storage I am in charge of backend side of the app.",
-                dates : "02.2022 - Present"
+                dates : "02.2022 - 12.2022"
             },
             dtu : {
                 position : "Student of Human-Centered AI - Master",
