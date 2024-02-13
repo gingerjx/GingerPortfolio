@@ -3,7 +3,7 @@ const Texts = {
         intro : {
             hi : "HELLO THERE, I'M",
             name : "Piotr Kalota",
-            tags : "Software Engineer · Human-Centered AI Student",
+            tags : "Data Engineer · Human-Centered AI Student",
             description : "If you are looking for a creative coder with wide programming skills, you are in the right place! Check out what I have for you below 🦊"
         },
         highlights : {
@@ -27,49 +27,49 @@ const Texts = {
             bachelor : {
                 position : "Student of Computer Science - Bachelor",
                 location : "Technology University of Lodz",
-                description : "TUL was an entity, which introduced me into world of Computer Science. Many modules, ranging from embedded systems to graphic design, helped me create a point of view what IT is.",
+                description : "Activities and societies: Improving General Engineering and Computer Science skills with a focus on Web Development.",
                 dates : "10.2018 - 02.2022"
             },
             samsung : {
                 position : "Software Engineer Intern",
                 location : "Samsung R&D Poland",
-                description : "This internship is my first step into proffesional IT work. Togheter with team in Warsaw and Seul, we've been refactoring EFL's Evas library, what was a big lesson about C family and common tools used in Continous Integration.",
+                description : "Refactoring graphic library for embedded devices written in C/C++ to improve its perfomance.",
                 dates : "07.2020 - 07.2021"
             },
             iLab : {
                 position : "iLab Project Member",
                 location : "University of Applied Science in Sankt Polten",
-                description : "For one semester I had a pleasure to study in Austria. I participated in iLab project, which was based on Design Thinking Patterns of creating solution. My team - ToBinOrNotToBin - was looking for a solution in topic of food waste.",
+                description : "Activities and societies: Broadening horizons during an exchange semester, dedicating myself to finding the solution to the foodwaste problem.",
                 dates : "02.2021 - 07.2021"
             },
             sollers : {
                 position : "Junior Java Developer",
                 location : "Sollers Consulting",
-                description : "During buying an insurance or claiming an accident, it's possible that you were using indirectly the systems written by me. As a Sollers member I was developing solutions for insurance clients in Guidewire framework.",
+                description : "Maintaining and implementing new features for an insurance system through the Guidewire framework.",
                 dates : "08.2021 - 02.2022"
             },
             pwc : {
                 position : "Junior Java Developer",
                 location : "PwC Poland",
-                description : "Massive amount of data is already gathered and used by finance sector, however insurance area does not want to stay behind. Therefore with my team we are creating platform for data processing, where insurance company can analyze data about their clients. Using tools such a Spring Boot or Azure Storage I am in charge of backend side of the app.",
+                description : "Developing from scratch the application for Data Analysis purposes utilizing Spring Boot.",
                 dates : "02.2022 - 12.2022"
             },
             dtu : {
                 position : "Student of Human-Centered AI - Master",
                 location : "Technology University of Denmark",
-                description : "I am delving into the exciting and evolving field of AI with a strong focus on human interactions and user-centered design. This program is designed to provide an in-depth understanding of AI technologies and their applications, with an emphasis on creating AI systems that enhance user experiences and benefit society.",
+                description : "Activities and societies: Exploring the world of ever-evolving Artificial Intelligence environment. Learning the magic of turning an idea into a viable project in DTU's startup-focused environment.",
                 dates : "09.2022 - 02.2024"
             },
             tum : {
-                position : "Student of Computer Science - Master",
+                position : "Student of Data Science - Master",
                 location : "Technical University of Munich",
-                description : "Exploring the world of Computer Science with the strong focus on topics such as natural language processing and social networks. Working on the master thesis that will be spreading the awareness about the politics.",
+                description : "Spending my laster year of Master studies at TUM continuing the journey in the exciting topic of omnipresent Artificial Intelligence with the focus on NLP field.",
                 dates : "04.2024 - 03.2025"
             },
             dfds : {
                 position : "Student .Net Backend Developer",
                 location : "DFDS Copenhagen",
-                description : "Designing and implementing data accumulation solutions to efficiently store data, and I'm well-versed in AWS, where our services are hosted. Working closely with a talented team, I optimize these systems, honing my C# development skills and contributing to DFDS's data-driven success.",
+                description : "Preparing data pipeline with the usage of Kafka messaging system and Rest APIs. Migrating monolith .NET application into a microservices architecture.",
                 dates : "12.2022 - 02.2024"
             }
         },
