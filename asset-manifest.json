@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/GingerPortfolio/static/css/main.f7a44d71.css",
-    "main.js": "/GingerPortfolio/static/js/main.537fe3c4.js",
+    "main.js": "/GingerPortfolio/static/js/main.7c0540ea.js",
     "static/js/787.84bd6b63.chunk.js": "/GingerPortfolio/static/js/787.84bd6b63.chunk.js",
     "static/media/cheaclo_full.webm": "/GingerPortfolio/static/media/cheaclo_full.8f0f508f516abc02f54a.webm",
     "static/media/animation.gif": "/GingerPortfolio/static/media/animation.faca8dedaf5883e6620e.gif",
     "static/media/ipc_color.png": "/GingerPortfolio/static/media/ipc_color.5421c73394d8e87816cf.png",
-    "static/media/Piotr_Kalota_CV.pdf": "/GingerPortfolio/static/media/Piotr_Kalota_CV.fc57b24d0e25832b3001.pdf",
+    "static/media/Piotr_Kalota_CV.pdf": "/GingerPortfolio/static/media/Piotr_Kalota_CV.6fedcc29304278b21a83.pdf",
     "static/media/Sen-Regular.ttf": "/GingerPortfolio/static/media/Sen-Regular.86f4976e456286fbdc19.ttf",
     "static/media/angular.png": "/GingerPortfolio/static/media/angular.16044117730f89fccbae.png",
     "static/media/typescript.png": "/GingerPortfolio/static/media/typescript.c4105801aadf2606ac30.png",
@@ -40,11 +40,11 @@
     "static/media/black-arrow.svg": "/GingerPortfolio/static/media/black-arrow.a8fb10893bbe35d8cdbc08819df83d1b.svg",
     "static/media/orange-arrow.svg": "/GingerPortfolio/static/media/orange-arrow.9b8504d1d325c279a0f76db9910f3ffa.svg",
     "main.f7a44d71.css.map": "/GingerPortfolio/static/css/main.f7a44d71.css.map",
-    "main.537fe3c4.js.map": "/GingerPortfolio/static/js/main.537fe3c4.js.map",
+    "main.7c0540ea.js.map": "/GingerPortfolio/static/js/main.7c0540ea.js.map",
     "787.84bd6b63.chunk.js.map": "/GingerPortfolio/static/js/787.84bd6b63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7a44d71.css",
-    "static/js/main.537fe3c4.js"
+    "static/js/main.7c0540ea.js"
   ]
 }
