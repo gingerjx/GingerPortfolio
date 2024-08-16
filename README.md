@@ -15,5 +15,6 @@ npm run deploy
 To run it locally, change `HashRouter` to `BrowserRouter` in `src/App.js` and run the following command:
 
 ```bash
+npm install
 npm start
 ```
